@@ -11,7 +11,12 @@ public class Main {
     }
 
     public static void getVolume(){
-        int oh = 29187 + 234;
+        int oh = getMath(790, 346);
         System.out.println(oh);
+    }
+
+    public static int getMath(int x, int y){
+        int oh = x + y;
+        return oh;
     }
 }
